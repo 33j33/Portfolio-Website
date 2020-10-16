@@ -7,13 +7,16 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4000952a68.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="logo">
-            <dev>
+            <i class="fas fa-terminal"></i>
         </div>
         <button class="nav-button">
             <span class="hamburger"></span>
@@ -21,13 +24,131 @@
         <nav class="nav">
             <!-- Double Underscoring naming convenction is according to BEM -->
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">My Skills</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <div class="section__card">
+            <h1 class="section__title">
+                Hi, I am <div id="name">Jai Arora</div>
+            </h1>
+            <p class="section__subtitle">A Front End Developer</p>
+        </div>
+        <img src="images/avatar.svg" alt="" class="intro-img">
+    </section>
+
+    <!-- My Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title">My Skills</h2>
+        <div class="my-skills__list">
+            <div class="list-item"><i class="fab fa-html5 fa-3x"></i>HTML5</div>
+            <div class="list-item"><i class="fab fa-css3-alt fa-3x"></i>CSS</div>
+            <div class="list-item"><i class="fab fa-js-square fa-3x"></i>JavaScript</div>
+            <div class="list-item"><i class="fab fa-python fa-3x"></i>Python</div>
+            <div class="list-item"><i class="fab fa-bootstrap fa-3x"></i>Bootstrap</div>
+            <div class="list-item"><i class="fab fa-react fa-3x"></i>React</div>
+            <div class="list-item"><i class="fab fa-react fa-3x"></i>React</div>
+        </div>
+        <p class="my-skills__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Eligendi unde explicabo voluptatum illum beatae ex exercitationem ipsa atque nemo recusandae,
+            necessitatibus maxime deserunt et sint iusto consectetur eum dolor magni.
+        </p>
+        <a href="#projects" class="btn">My Projects</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title">Who I am</h2>
+        <p class="section__subtitle">Developer, Amateur Chess Player, Politics and Tech Aficionado</p>
+        <div class="section__body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Vel voluptas sed debitis vero saepe voluptatibus, eveniet possimus voluptatem,
+                dolorem qui hic sunt, deserunt autem voluptates. Ut quae facere vel fugit!
+            </p>
+        </div>
+        <img src="images/avatar4.svg" alt="" class="about-me-img">
+    </section>
+
+    <!-- My Projects -->
+    <section class="my-projects" id="#projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="project-list">
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-1.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-2.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-3.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-4.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-5.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-6.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-list-item">
+                <div class="image-container">
+                    <img src="images/Mobile/Rectangle 3-7.png" alt="">
+                    <div class="image-overlay">
+                        <div class="btn">Github</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:hello@jai.dev" class="footer__link">hello@jai.dev</a>
+        <ul class="personal-links">
+            <li class="personal-links__item"><a class="personal-links__link" href="https://codepen.io">a</a></li>
+            <li class="personal-links__item">b<a class="personal-links__link" href="http://dribbble.com"></a></li>
+            <li class="personal-links__item"><a class="personal-links__link" href="https://github.com">d</a></li>
+        </ul>
+    </footer>
     <script src="index.js"></script>
 </body>
 
