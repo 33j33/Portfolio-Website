@@ -1,6 +1,12 @@
 # Portfolio-Website
 A website displaying my skills and projects
 
+<img src="images/screenshots/portfolio-website1.png">
+
+<img src="images/screenshots/portfolio-website2.png">
+
+
+
 
 # Learning Resources 
 
