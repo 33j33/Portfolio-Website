@@ -3,7 +3,12 @@ A website displaying my skills and projects
 
 <img src="images/screenshots/portfolio-website1.png">
 
-<img src="images/screenshots/portfolio-website2.png">
+### Desktop View
+<img src="images/screenshots/portfolio-website.png">
+
+### Mobile View
+<img src="images/screenshots/portfolio-website-mobile-view.png">
+
 
 
 
