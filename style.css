@@ -109,20 +109,21 @@ p{font-size: var(--font-size-body);}
 
 .image-btn {
     display: inline-block;
-    padding: .6em .8em;
+    padding: .3em .4em;
     background: var(--color-accent);
     color: var(--color-dark);
     font-weight: var(--font-weight-med);
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     text-decoration: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: .9rem;
+    border-radius: 20px;
     transition: transform 300ms ease-in-out;
 }
 .image-btn:hover {
     transform: scale(1.2);
-    outline: 2px solid var(--color-accent);
-    outline-offset: 2px;
+    /* outline: 2px solid var(--color-accent);
+    outline-offset: 2px; */
 }
 
 /* HEADER */
@@ -410,6 +411,13 @@ p{font-size: var(--font-size-body);}
     padding: .1em 0;
     margin: .5em .5em;
 }
+.my-projects .list-item .list-item-description a {
+    text-decoration: none;
+    color: var(--color-light);
+}
+.my-projects .list-item .list-item-description a:hover {
+    color: var(--color-accent-light);
+}
 .my-projects .list-item .image-container .project-img{
     width: 100%;
     transition: transform 300ms ease-in-out;
@@ -427,7 +435,12 @@ p{font-size: var(--font-size-body);}
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 
+}
+.my-projects .list-item .image-container .image-overlay .image-btn .icon {
+    display: inline-block;
+    width: 10px;
 }
  .my-projects .list-item .image-container:hover .image-overlay{
     opacity: 1;
